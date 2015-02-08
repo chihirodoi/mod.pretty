@@ -15,6 +15,12 @@ D +5V
 K 5, PW, POWER, PWR
 $ENDCMP
 #
+$CMP 78L05
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78lxx.pdf
+$ENDCMP
+#
 $CMP BATTERY
 D Cell Battery
 K Cell
@@ -125,6 +131,18 @@ D LED
 K LED
 $ENDCMP
 #
+$CMP LM7805
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
+$CMP LM7812
+D Linear Regulator +12V
+K POWER REGUL
+F regulator\lm78xx.pdf
+$ENDCMP
+#
 $CMP MOS_N
 D NPN MOSFET
 K npn, mos
@@ -157,6 +175,12 @@ $ENDCMP
 $CMP R2
 D Resistance (regacy)
 K R
+$ENDCMP
+#
+$CMP Regulator-Adj
+D Linear Regulator +5V
+K POWER REGUL
+F regulator\lm78xx.pdf
 $ENDCMP
 #
 $CMP SW1

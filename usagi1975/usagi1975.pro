@@ -1,4 +1,4 @@
-update=2015年02月08日日曜日 09:04:15
+update=2015年02月09日月曜日 03:09:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,13 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
-[eeschema]
-version=1
-LibDir=/Users/chihiro/Workspace/Developments/Electric/Library/kicad_mod.pretty
-[eeschema/libraries]
-LibName1=usagi1975
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -43,3 +36,11 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[eeschema]
+version=1
+LibDir=/Users/chihiro/Workspace/Developments/Electric/Library/kicad_mod.pretty
+[eeschema/libraries]
+LibName1=usagi1975
+LibName2=regul
+[general]
+version=1

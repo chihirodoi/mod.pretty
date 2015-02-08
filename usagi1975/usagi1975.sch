@@ -1,6 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:usagi1975
-LIBS:usagi1975-cache
+LIBS:regul
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -420,6 +420,17 @@ F 1 "IND2" H 2900 4250 50  0000 C CNN
 F 2 "" H 2900 4300 60  0000 C CNN
 F 3 "" H 2900 4300 60  0000 C CNN
 	1    2900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator-Adj Reg?
+U 1 1 54D7AC56
+P 1650 5900
+F 0 "Reg?" H 1800 5704 60  0000 C CNN
+F 1 "Regulator-Adj" H 1650 6100 60  0000 C CNN
+F 2 "" H 1650 5900 60  0000 C CNN
+F 3 "" H 1650 5900 60  0000 C CNN
+	1    1650 5900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
