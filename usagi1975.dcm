@@ -61,7 +61,7 @@ K con
 $ENDCMP
 #
 $CMP CP
-D Capacitor (polarized)
+D Capacitor (non polarized)
 K C
 $ENDCMP
 #
@@ -111,6 +111,11 @@ K G, POWER, PWR
 $ENDCMP
 #
 $CMP IND
+D Inductor
+K I L
+$ENDCMP
+#
+$CMP IND2
 D Inductor
 K I L
 $ENDCMP
